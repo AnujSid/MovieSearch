@@ -1,0 +1,8 @@
+<h1>
+	MY MOVIE PAGE!!
+</h1>
+
+<% for(var i=0;i<movieName["Search"].length;i++){ %>
+	 <li><strong><%= movieName["Search"][i]["Title"] %></strong>-<i><%= movieName["Search"][i]["Year"] %></i></li>									 
+<%}%>
+<a href="/search">Search</a>
